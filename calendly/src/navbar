@@ -1,0 +1,19 @@
+function navbar() {
+    return (
+      <nav ClassName="navbar navbar-expand-lg navbar-light bg-light">
+        <a ClassName="navbar-brand" href="#"><img src="images/caledly.png" alt="images" style="padding-left: 250px;"/></a>
+        <button ClassName="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span ClassName="navbar-toggler-icon"></span>
+        </button>
+        <div ClassName="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div ClassName="navbar-nav">
+            <a style="color: black; padding-left: 30px;" ClassName="nav-link" href="#">Individuals</a>
+            <a style="color: black; padding-left: 30px" ClassName="nav-link" href="#">Teams</a>
+            <a style="color: black; padding-left: 30px" ClassName="nav-link" href="#">Enterprise</a>
+          </div>
+        </div>
+      </nav>
+    )
+} 
+
+export default navbar;
